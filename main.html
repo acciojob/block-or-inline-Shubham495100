@@ -1,66 +1,52 @@
-<!DOCTYPE html>
+<a href="https://gist.github.com/ross-u/97bddbb6556932eba37e98ddb4fe281b">
+  <h2>Block vs Inline Elements - Cheatsheet</h2>
+</a>
 
-<html>
+<span>INLINE ELEMENT: yellow</span>
+<span>INLINE ELEMENT: yellow</span>
+<div>BLOCK ELEMENT: blue</div>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
 
-<body>
-	<!-- the entire body must be written by student -->
-		<div data-ns-test="block-inline-button">
-		<button>Test1</button>
-	    <button>Test2</button>
-	    Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-div">
-		<div>Test1</div>
-	    <div>Test2</div>
-	    Answer: Block
-	</div>
-    <div data-ns-test="block-inline-span">
-		<span>Test1</span>
-	    <span>Test2</span>
-	    Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-p">
-		<p>Test1</p>
-		<p>Test2</p>
-		Answer: Block
-	</div>
-	<div data-ns-test="block-inline-input">
-		<input>Test1
-		<input>Test2
-		Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-cite">
-		<cite>Test1</cite>
-		<cite>Test2</cite>
-		Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-code">
-		<code>Test1</code>
-		<code>Test2</code>
-		Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-h1">
-		<h1>Test1</h1>
-		<h1>Test2</h1>
-		Answer: Block
-	</div>
-	<div data-ns-test="block-inline-sup">
-		<sup>Test1</sup>
-		<sup>Test2</sup>
-		Answer: Inline
-	</div>
-	<div data-ns-test="block-inline-sub">
-		<sub>Test1</sub>
-		<sub>Test2</sub>
-		Answer: Inline
-	</div>
-    <script type="text/javascript" src="./script.js">
-</script>
+<div>
+  div -I'm a block! I take 100% width unless told otherwise
+</div>
 
-</body>
+<p>
+  I'm a paragraph with spans.
+  <span>I'm inline! I flow like text</span> 
+  See, no line break!
+  <span>...even if multiple spans are present</span>
+</p>
 
-</html>
+<p>
+  I'm a paragraph with inline tags.
+  We can make our text 
+  <b>bold</b>,  <i>italic</i> or <u>underlined</u> 
+  by using inline tags.
+</p>
+
+<form action="">
+  <label> First Name:</label>
+  <input />
+  
+  <label>Last Name:</label>
+  <input />
+  
+  <label>Message:</label>
+  <textarea rows="4" cols="50">
+  </textarea>
+  
+  <br />
+  <button type="submit">Submit</button>
+</form>
+
+<img src="https://i.imgur.com/8jTonGM.jpg">
+
+<select name="pets" id="pet-select">
+    <option value=""> -- Who am I -- </option>
+    <option value="flower">Flower</option>
+    <option value="cat">Cat</option>
+    <option value="dog">Dog</option>
+</select>
+
+<br>
